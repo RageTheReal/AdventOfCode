@@ -1,6 +1,6 @@
 rm(list = ls())
 
-input <- read.table("C:/Users/Jaege/OneDrive/AdventOfCode/DayOneInput.txt", na.strings = TRUE,blank.lines.skip = FALSE)
+input <- read.table("01_DayOneInput.txt", na.strings = TRUE,blank.lines.skip = FALSE)
 
 
 fPE <- c(1,which(is.na(input)),dim(input)[1])
